@@ -29,7 +29,7 @@
 #include <iostream>
 
 class Student{
-private: 
+private: // anything thats not explicitly declared as public is private by default
     int id;
     std::string name;
     int grade;
